@@ -161,3 +161,18 @@ body {
     margin-bottom: 5px;
     pointer-events: auto;
 }
+
+/* transitions */
+.fader {
+    -moz-animation-name: fader;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-duration: .5s;
+
+    -webkit-animation-name: fader;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-duration: .5s;
+
+    animation-name: fader;
+    animation-iteration-count: 1;
+    animation-duration: .5s;
+}

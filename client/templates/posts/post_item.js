@@ -8,5 +8,8 @@ Template.postItem.helpers({
         a.href = this.url;
         //console.log('this is a in postItem: ', a);
         return a.hostname;
+    },
+    ownPost: function() {
+        return this.userId === Meteor.userId();
     }
 });
